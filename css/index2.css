@@ -1,0 +1,323 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-weight: 400;
+    background-color: #0e0d0d;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+li {
+    font-size: .28rem;
+}
+
+/* 主体 */
+.main {
+    width: 100%;
+    min-height: 100%;
+    position: relative;
+    padding-bottom: .46rem;
+}
+
+header {
+    position: relative;
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 1.22rem;
+    display: -webkit-box;
+    z-index: 9;
+    width: 100%;
+    background-size: 100%;
+    background: url(../image/header.jpg) no-repeat;
+    background-size: 100%;
+}
+
+.logo {
+    width: 1.21rem;
+    position: relative;
+    z-index: 2;
+    height: 1.21rem;
+    margin-right: .23rem;
+    background: url(../image/logo.png) center center no-repeat;
+    background-size: cover;
+    display: block;
+    margin-left: .29rem;
+    margin-top: .12rem;
+}
+
+.head-text {
+    margin-top: .2rem;
+}
+
+.head-text h4 {
+    color: #fff;
+    font-size: .3rem;
+    font-weight: 700;
+}
+
+.head-text p {
+    color: #fff;
+    line-height: .28rem;
+    font-size: .24rem;
+    margin-top: .05rem;
+}
+
+.ljxz {
+    display: block;
+    position: absolute;
+    right: .2rem;
+    top: .27rem;
+    width: 1.74rem;
+    height: .68rem;
+    font-size: 0;
+    margin-left: -1.415rem;
+    background: url(../image/ljxz.jpg) no-repeat;
+    background-size: 100% 100%;
+}
+
+/* 通用底部 */
+.buttom {
+    padding-bottom: 0;
+    width: 100%;
+    box-sizing: border-box;
+    position: relative;
+    background: #000 url(../image/qiusheng.jpg) no-repeat top center;
+    background-size: 100% auto;
+    border-bottom-color: #000;
+    padding-top: .71rem;
+}
+
+.buttom .more-servive {
+    width: 4.24rem;
+    height: .63rem;
+    background: url(../image/xingcunzhe.png) no-repeat;
+    background-size: 100% auto;
+    margin-left: .28rem;
+}
+
+.buttom ul {
+    display: -webkit-box;
+    -webkit-box-orient: horizontal;
+    -webkit-box-pack: justify;
+    /* margin-bottom: .3rem;
+    margin-top: .57rem; */
+    padding: 0.7rem .5rem;
+}
+
+.buttom ul li {
+    text-align: center;
+    border-color: #87939c;
+}
+
+.buttom a {
+    /* color: rgba(255, 255, 255, .7); */
+    color: #868686;
+    text-decoration: underline;
+}
+
+
+.buttom ul li i {
+    width: 1rem;
+    height: 1rem;
+    display: block;
+    font-family: sharefont !important;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0;
+}
+
+.buttom ul .wx i {
+    background: url(../image/bottom-wx.png) no-repeat;
+    background-size: 100% auto;
+}
+
+.buttom ul .wb i {
+    background: url(../image/bottom-wb.png) no-repeat;
+    background-size: 100% auto;
+}
+
+.buttom ul .lt i {
+    background: url(../image/bottom-lt.png) no-repeat;
+    background-size: 100% auto;
+}
+
+.buttom ul .tb i {
+    background: url(../image/bottom-tb.png) no-repeat;
+    background-size: 100% auto;
+}
+
+.buttom ul .fx i {
+    background: url(../image/bottom-fx.png) no-repeat;
+    background-size: 100% auto;
+}
+
+.tab {
+    height: 1rem;
+    line-height: 1rem;
+    padding-top: 1.1rem;
+    overflow: hidden;
+    background: #141414;
+    padding-left: 2.3rem;
+    position: relative;
+}
+
+.tab a {
+    color: #fff;
+    font-size: .24rem;
+    padding-left: .4rem;
+    background: url(../image/tab.png) no-repeat left center;
+    background-size: .22rem .34rem;
+    position: absolute;
+    left: .3rem;
+    top: 1.1rem;
+}
+
+.art {
+    padding: 0 .3rem;
+}
+
+.art h1 {
+    display: block;
+    color: #ededed;
+    text-align: left;
+    font-size: .36rem;
+    line-height: .5rem;
+
+}
+
+.art span {
+    display: block;
+    color: #999;
+    border-color: #141617;
+    font-size: .24rem;
+    height: .44rem;
+    line-height: .44rem;
+    text-align: left;
+
+}
+
+.art-text {
+
+    color: #f2f2f2;
+}
+
+.art-text p {
+    line-height: .42rem;
+    font-size: .28rem;
+    margin-bottom: .2rem;
+}
+
+.art-text img {
+    width: 100% !important;
+    height: auto !important;
+}
+
+.art-text h2 {
+    line-height: .5rem;
+    font-size: .32rem;
+    margin-bottom: .2rem;
+}
+
+/* 版权 */
+.copy {
+    background: #0e0d0d;
+    padding: 1rem .32rem .4rem;
+    margin-top: 0.4rem;
+    /* margin-bottom: 1rem; */
+}
+
+.copy p {
+    text-align: left;
+    font-size: .24rem;
+    line-height: .4rem;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    /* color: rgba(255, 255, 255, .7); */
+    color: #868686;
+}
+
+/* 底部logo */
+.buttom-logo {
+    position: absolute;
+    top: 4.4rem;
+    left: 0.26rem;
+    font-size: 0;
+}
+
+.buttom-logo a {
+    font-size: 0.2rem;
+    text-decoration: underline;
+    display: inline-block;
+    vertical-align: top;
+    color: rgba(255, 255, 255, .7);
+}
+
+.logo1 {
+    width: 2.43rem;
+    height: .63rem;
+    background: url(../image/buttom-logo1.png) no-repeat;
+    background-size: 100% auto;
+}
+
+.buttom-logo i {
+    display: inline-block;
+    vertical-align: top;
+    height: .53rem;
+    border-left: 1px solid #e60013;
+    margin: .05rem .25rem 0;
+}
+
+.logo2 {
+    width: 1.56rem;
+    height: .51rem;
+    background: url(../image/bottom-logo2.png) no-repeat;
+    background-size: 100% auto;
+    margin-top: .1rem;
+}
+
+.go-pc {
+    color: rgba(255, 255, 255, .7);
+    position: absolute;
+    bottom: 0.1rem;
+    width: auto;
+    right: -2.4rem;
+    text-decoration: underline;
+}
+
+.to-top {
+    width: .96rem;
+    height: .96rem;
+    display: block;
+    position: absolute;
+    right: .26rem;
+    margin-left: -.25rem;
+    display: -webkit-box;
+    -webkit-box-pack: center;
+    border: 1px solid #eaf1fa;
+    background: transparent;
+    bottom: .4rem;
+    color: rgba(255, 255, 255, .7);
+    overflow: hidden;
+}
+
+.to-top i {
+    display: block;
+    width: .3rem;
+    height: .3rem;
+    border-left: .08rem solid #100000;
+    border-top: .08rem solid #100000;
+    border-bottom: 0;
+    border-right: 0;
+    transform: rotate(45deg);
+    margin-top: .4rem;
+    border-color: #eaf1fa;
+}
